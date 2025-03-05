@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEEPPLG</title>
+	<link rel="website icon" type="png"
+	href="https://c5e011a1ad.cbaul-cdnwnd.com/6cf5d0cbc901fd1e718c1e9610c59fe4/200000146-0f7c20fefb/pokebola_love.gif">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+		
+        header {
+            background-color: pink;
+            color: white;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .imagem {
+            margin: 0 10px;
+            max-width: 200px; 
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: pink;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+
+        article {
+            margin-top: 20px;
+            padding: 10px;
+            border-left: 4px solid pink;
+            background: #f9f9f9;
+        }
+
+        span {
+            color: violet;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ce<span>epp</span>lg</h1>
+        <nav>
+            <a href="https://www.pokemon.com/br">Inicio</a>
+            <a href="https://www.pokemon.com/br/pokedex">Pokédex</a>
+            <a href="https://pokemon.alexonsager.net/">fusões</a>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <img src="https://pm1.aminoapps.com/6426/5b0a01c45400841854f5c69adf60b9acbb4224a6_hq.jpg" alt="Imagem 1" class="imagem">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgVcHjXTaD9L6ENXr989cTiJQGS0WHujHZ2qpZbGlAKgLYg_1qjcvzoo2cTvJ8TePddiNxjbTju3sWidvC_PwGF5uFeF7p5GwGNiR-axGpYGoEGElwWjT6znMw0JYt7OHT5Z3y0idIi2Gav/s640/sylveon.png" alt="Imagem 2" class="imagem">
+            <img src="https://i.pinimg.com/736x/44/0c/c2/440cc2c2f4abd45f1f563a7165fb6344.jpg" alt="Imagem 3" class="imagem">
+        </div>
+        <h2>Um método simples para conseguir as oito formas de evolução é trocar o nome do seu Eevee para nicknames específicos e usar 25 doces de Eevee.</h2>
+        <hr>
+        <b>Lista de evoluções da Eevee:</b>
+        <ul>
+            <li>Vaporeon</li>
+            <li>Jolteon</li>
+            <li>Flareon</li>
+            <li>Espeon</li>
+            <li>Umbreon</li>
+            <li>Leafeon</li>
+			<li>Glaceon</li>
+			<li>Sylveon</li>
+        </ul>
+        <img src="https://i.pinimg.com/736x/fa/ef/03/faef03bdc3cc4f98eed0f429522299cd.jpg" alt="Evoluções de Eevee">
+        <article>
+            <h3>Pontos importantes a comentar sobre a Eevee</h3>
+            <p>"Eevee é um Pokémon que representa a evolução e a adaptação." - Pokédex</p>
+            <p>"Pokémon do tipo comum, com a capacidade de evoluir em várias formas." - Pokédex</p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2025 Victor G. Todos os direitos reservados, não copiem ¯\_(ツ)_/¯.</p>
+    </footer>
+</body>
+</html>
