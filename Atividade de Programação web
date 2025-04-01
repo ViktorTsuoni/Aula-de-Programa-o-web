@@ -1,0 +1,56 @@
+<doctype html>
+<html lang="pt-br">
+<head>
+<title>Exercício Programação web</title>
+<style>
+#header {
+background-color: #;
+padding: 20px;
+text-align: center;
+border-bottom: 2px solid #ddd;
+}
+#main { 
+background-color: #ffa07a;
+padding: 20px;
+text-align: center;
+border-bottom: 2px solid #ddd;
+}
+img {
+display; inline-block;
+margin; 5px; 
+width:300px
+height:auto;
+}
+#Footer {
+background-color: #ffd700;
+padding: 5px;
+text-align: center;
+border-bottom: 2px solid #ddd;
+}
+</style>
+</head>
+<body>
+<div id="header">
+<center>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0MgDSMKl5yXEoSy3YYFkJRDCV9w6-lyHX9w&s">
+</center>
+</div>
+<div id="esq">
+<ul>
+  <li><h1>Pátio</li><br>
+  <li><h1>Chromebook</li><br>
+  <li><h1>Auditório</li><br>
+</ul>
+</div>
+<div id="main">
+<center>
+<img src="https://backup.tribunadonorte.com.br/fotos/232748.jpg">
+<img src="https://pipanoticias.com.br/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-25-at-17.23.50.jpeg">
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUDjEYm3MzJn0FKaFzfs-nJp_MmYelvBWjeUlmJOQqc1TKD497jIfoR-XV_-2x2uVyT7wX7GTWRpiXTnfAFsKNuo-wshIgqoCcbHSMazi5sPNJUaT37EnqQghgzn_29n2QVMyA1SBHdkgyNDKdJt_OslzSbAy2MyZ594-vWUFb-r1P28OTTm2O6r-qTGHK/s1600/CEEP%202024.jpg">
+</center>
+</div>
+<div id="footer">
+<p><h2>Aula de programação web 
+</div>
+</body>
+</html>
