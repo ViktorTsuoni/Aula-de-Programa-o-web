@@ -1,0 +1,45 @@
+<doctype html>
+<html>
+<head>
+<style>
+  #header{
+  background-color: blue;
+  padding:5px;
+  }
+  #main{
+  background-color: orange;
+  text-align: center;
+  padding:150px;
+  }
+  img{
+  display: inline-block;
+  margin: 8px;
+  width: 500px;
+  height: 300px;
+  }
+  #footer{
+  background-color: yellow;
+  padding: 5px;
+  text-align: center;
+  }
+  </style>
+</head>
+<body>
+<div id="header">
+<center>
+<img src="https://tse1.mm.bing.net/th?id=OIP.PMmlKigeZVynyi9JUpPSBQHaC_&pid=Api&P=0&h=180">
+</center>
+</header>
+</div>
+<div id="main">
+<img src="https://mossoroonline.com.br/wp-content/uploads/2023/09/Projeto-Geracao-Conectada-revoluciona-escolas-do-RN_Foto-Carmem-Felix-1.jpg">
+<img src="https://www.blogcardososilva.com.br/wp-content/uploads/2023/09/67247/Projeto-Geracao-Conectada-revoluciona-escolas-do-RN_Foto-Carmem-Felix-5.jpg">
+<img src="https://assets.novonoticias.com.br/uploads/2023/09/b6283d1c-0237-46e5-ad09-832aee3505ca-1110x740.jpg">
+</main>
+</div>
+<div id="footer">
+<p>Estou praticando div em uma página web</p>
+</footer>
+</div>
+</body>
+</html>
