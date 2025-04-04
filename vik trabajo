@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>CEEPPLG</title>
+	<link rel="website icon" type="png"
+	href="https://yt3.googleusercontent.com/ytc/AIdro_l6B-ewCcZnfbG4mahCe4U4cElNvqdOjOVzOm03Dw3lcg=s900-c-k-c0x00ffffff-no-rj">
+    <style>
+      #header{
+      background-color: #2f2c79;
+      padding:5px;
+	   Border-radius: 25px;
+      }
+      #main{
+      background-color: #bd0003;
+      text-align: center;
+      padding:150px;
+	    Border-radius: 25px;
+      }
+	  #esq {
+      background-color: #D2691E;	  
+	  width: 5px;
+	  height: 25px:
+	  float: left;
+	  }
+      img{
+      display: inline-block;
+      margin: 8px;
+      width: 500px;
+      height: 300px;
+	   Border-radius: 25px;
+      }
+      #footer{
+      background-color: #2f2c79;
+      padding: 5px;
+      text-align: center;
+	  text-color: white;
+	    font-size: 35px;
+	    Border-radius: 25px;
+	   .case-box;
+        margin: 10px;
+      }
+      </style>
+    </head>
+    <body>
+    <div id="header">
+    <center>
+    <img src="https://scontent.fnat1-1.fna.fbcdn.net/v/t39.30808-6/355118774_730691069066044_8582228660086677831_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=TJgys51e22sQ7kNvwEf9iIK&_nc_oc=AdnvjP8h_9n1sZXSnBJctqhWbK_z7fuyLKKOsN_Pn6ZOIRudxEYm54i4PXAdKpnaz4E&_nc_zt=23&_nc_ht=scontent.fnat1-1.fna&_nc_gid=Kj9M275dc5uHXSlDAzex2g&oh=00_AYGXp9zHk1H9Ii7NxL-GWpul6GeokclRq8XtRzwS7a1VhQ&oe=67F61292">
+    </center>
+    </header>
+    </div>
+	<div id="esq">
+	 <ul>
+	   <li><h1>Pátio</li><BR>
+	   <li><h1>Chromebook</li><BR>
+	   <li><h1>Auditório</li><BR>
+	 </ul>
+	 </div>
+    <div id="main">
+    <img src="https://tribunadajustica.com.br/wp-content/uploads/2019/09/0afde79593717a91edce3bfa3ac39f23.jpeg">
+    <img src="https://www.blogcardososilva.com.br/wp-content/uploads/2023/09/67247/Projeto-Geracao-Conectada-revoluciona-escolas-do-RN_Foto-Carmem-Felix-5.jpg">
+    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUDjEYm3MzJn0FKaFzfs-nJp_MmYelvBWjeUlmJOQqc1TKD497jIfoR-XV_-2x2uVyT7wX7GTWRpiXTnfAFsKNuo-wshIgqoCcbHSMazi5sPNJUaT37EnqQghgzn_29n2QVMyA1SBHdkgyNDKdJt_OslzSbAy2MyZ594-vWUFb-r1P28OTTm2O6r-qTGHK/s1600/CEEP%202024.jpg">
+    </main>
+    </div>
+    <div id="footer">
+    <p>Estou praticando div em uma página web</p>
+    </footer>
+    </div>
+    </body>
+    </html>
