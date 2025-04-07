@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Pedido de Monitoria</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: #e3f2fd;
+      text-align: center;
+      padding: 50px;
+    }
+    .card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      padding: 30px;
+      display: inline-block;
+      max-width: 500px;
+    }
+    h1 {
+      color: #0077cc;
+    }
+    p {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    button {
+      font-size: 18px;
+      margin: 15px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+    #sim {
+      background-color: #4caf50;
+      color: white;
+    }
+    #nao {
+      background-color: #f44336;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Professor Fabiano...</h1>
+    <p>Eu adoraria fazer parte da sua monitoria de Programação Web!  
+    Quero muito ajudar os colegas e auxiliar o senhor nas aulas com todo carinho e dedicação.  
+    Posso entrar na monitoria?</p>
+
+    <button id="sim" onclick="responderSim()">Sim!</button>
+    <button id="nao" onmouseover="fugir()">Não...</button>
+  </div>
+
+  <script>
+    function responderSim() {
+      alert("Ebaa! Muito obrigado, professor! Prometo dar o meu melhor!");
+    }
+
+    function responderNão () {
+      alert("Vou me matar(⁠人⁠ ⁠•͈⁠ᴗ⁠•͈⁠)");
+    }
+  </script>
+</body>
+</html>
