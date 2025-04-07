@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>WikiParques - Página Principal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f0f0f0;
+    }
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+    }
+    .container {
+      padding: 20px;
+    }
+    .intro {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    .section {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+    .gallery img {
+      width: 150px;
+      margin: 10px;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>WikiParques</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#">Explorar Parques</a>
+      <a href="#">Fotos</a>
+      <a href="#">Colaboradores</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="intro">
+      <h2>Bem-vindo ao WikiParques</h2>
+      <p>Plataforma colaborativa dedicada às Unidades de Conservação brasileiras. Explore, compartilhe e aprenda sobre os parques do Brasil!</p>
+    </div>
+
+    <div class="section">
+      <h3>Estatísticas</h3>
+      <ul>
+        <li>+1000 unidades cadastradas</li>
+        <li>+5000 fotos enviadas</li>
+        <li>+200 colaboradores ativos</li>
+      </ul>
+    </div>
+
+    <div class="section gallery">
+      <h3>Fotos Recentes</h3>
+      <img src="https://via.placeholder.com/150" alt="Foto 1">
+      <img src="https://via.placeholder.com/150" alt="Foto 2">
+      <img src="https://via.placeholder.com/150" alt="Foto 3">
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 WikiParques. Desenvolvido por Working Minds.
+  </footer>
+</body>
+</html>
