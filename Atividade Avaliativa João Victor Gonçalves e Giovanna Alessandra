@@ -1,0 +1,115 @@
+<doctype.html>
+<html>
+<head>
+<style>
+#header{
+background-color:orange;
+font-size:12px;
+font-family: arial;
+padding:9px;
+border-bottom: 2px solid #ddd;
+}
+img{
+width:148px;
+height:184px;
+display:inline-block;
+margin:5px;
+border-radius:4px;
+}
+#esq{
+background-color:green;
+text-color:yellow;
+font-size:10px;
+font-family:arial;
+height:304px;
+width:223px;
+float:left;
+}
+#main{
+padding:50px;
+background-color:blue;
+border-bottom:3px solid #efefef;
+}
+#footer{
+background-color:#B39283;
+padding:9px;
+font-family:arial;
+font-size:12px;
+border-bottom: 2px solid #ddd;
+}
+#esq2{
+background-color:#F7A156;
+height:304px;
+width:223px;
+float:left;
+font-size:10px;
+font-family:arial;
+}
+#main2{
+background-color:#FC0FC0;
+padding:50px;
+border-bottom:3px solid #efefef;
+}
+#footer2{
+background-color:green;
+padding:9px;
+font-family:arial;
+text-color:white;
+border-bottom: 2px solid black;
+}
+</style>
+</head>
+<body>
+<div id="header">
+<center>
+<h1>CARROS BELÍSSIMOS</h1>
+</center>
+</div>
+<div id="esq">
+<center>
+<h2>IMPALA</h2>
+<h2>SKYLINE GTR34</h2>
+<h2>MAZDA RX7<h2>
+<h2>FORD GT40<h2>
+<h2>CADILLAC<h2>
+</center>
+</div>
+<div id="main">
+<center>
+<img src="https://i.pinimg.com/736x/f5/e4/45/f5e4452d8969414417a41dc0f0f1bb57.jpg">
+<img src="https://i.pinimg.com/736x/d9/3e/15/d93e157c5f1ffaf44622ba044388bd44.jpg">
+<img src="https://i.pinimg.com/736x/00/cb/88/00cb888a32fc91dbb091b018fdfd75e4.jpg">
+<img src="https://i.pinimg.com/736x/d3/e2/cc/d3e2cc80432e545060ba69b16def05fe.jpg">
+<img src="https://i.pinimg.com/736x/7a/a8/db/7aa8dbf09944809947db26f102b1626c.jpg">
+</center>
+</div>
+<div id="footer">
+<center>
+<h1>MOTOS BELÍSSIMAS</h1>
+</center>
+</div>
+<div id="esq2">
+<center>
+<h2>HARLEY DAVISON</h2>
+<h2>YAMAHA FAZER 250</h2>
+<h2>KAWASAKI H2R</h2>
+<h2>SUZUKI HAYBUSA 1300</h2>
+<h2>DUCATI STREET FIGHTER</h2>
+</center>
+</div>
+<div id="main2">
+<center>
+<img src="https://i.pinimg.com/736x/85/8a/c3/858ac3ad2e024860563b38e19a6208d5.jpg">
+<img src="https://i.pinimg.com/736x/73/84/50/73845043e6631a6fa9da239458ac4bfc.jpg">
+<img src="https://i.pinimg.com/736x/32/24/ee/3224ee8d85025964d4aea3f62dd83e77.jpg">
+<img src="https://i.pinimg.com/736x/f2/3a/c0/f23ac097e9dce42d56cfde628dbb9edc.jpg">
+<img src="https://i.pinimg.com/736x/91/be/1e/91be1e87e79630f2c709c15863b589c9.jpg">
+</center>
+</div>
+<div id="footer2">
+<center>
+<h3>CRIADO POR: MIM KKKKKKKK"</h3>
+<center>
+</div>
+</body>
+</html>
