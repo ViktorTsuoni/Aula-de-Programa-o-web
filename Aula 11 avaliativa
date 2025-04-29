@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Atividade Avaliativa de programação web</title>
+ 
+  <style>
+    body {
+     
+      background-color: #003d7a;
+      color: #ffff00;
+      font-family: Alegreya Sans, sans-serif;
+      text-align: center;
+    }
+     #header {
+    
+      background-color: #003d7a;
+      color: #ffff00;
+      font-family: Alegreya Sans, sans-serif;
+      text-align: center;
+    }
+     #main {
+     
+      background-color: #003d7a;
+      color: white;
+      font-family: Alegreya Sans, sans-serif;
+      text-align:center;
+
+  }
+    #footer{
+   
+      background-color: ##001429;
+      color: white;
+      font-family: Alegreya Sans, sans-serif;
+      text-align: center;
+      position: fixed;
+      
+} 
+    #esq {
+      background-color: #e6c972;
+      color: black;
+      font-family: Alegreya Sans, sans-serif;
+      text-align: center;
+      padding: 20px;
+    }
+    
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 80%;
+    }
+    
+    th, td {
+      padding: 10px;
+      border: 2px solid #003d7a;
+    }
+    
+    th {
+      background-color: #003d7a;
+      color: yellow;
+    }
+    
+    form {
+      margin: 20px auto;
+      max-width: 500px;
+      text-align: left;
+    }
+    
+    button:hover {
+      background-color: #002a54;
+    }
+    
+    </style>
+  
+</head>
+  
+<body>
+<h1>Meta atual duel links</h1>
+<div id= "header">
+  <img src="https://www.konami.com/yugioh/duel_links/en/series/images/dm/series-title_en.png">
+</header>
+  <div id="main">
+    <center>
+    <img src="https://img.mypcards.com/img/3/1219/yugioh_chim_en064/yugioh_chim_en064_en.jpg">
+    <img src="https://img.mypcards.com/img/3/576/yugioh_lcjw-en182/yugioh_lcjw-en182_en.png">
+    <img src="https://img.mypcards.com/img/3/979/yugioh_ygld_092/yugioh_ygld_092_en.jpg">
+    <img src="https://img.mypcards.com/img/3/381/yugioh_db1-en043/yugioh_db1-en043_en.jpg">
+    <img src="https://img.mypcards.com/img/3/1218/yugioh_dude_en055/yugioh_dude_en055_en.jpg">
+    </center>
+  </main>
+    <div id="esq">
+      <h2>Decks Meta</h2>
+      <table border="1">
+        <tr>
+          <th>Nome do Deck</th>
+          <th>Tipo</th>
+          <th>Atributos</th>
+        </tr>
+        <tr>
+          <td>Amazoness</td>
+          <td>Deck principal</td>
+          <td>A força</td>
+        </tr>
+        <tr>
+          <td>Dark Magician</td>
+          <td>Deck principal</td>
+          <td>Dificil de lidar</td>
+        </tr>
+        <tr>
+          <td>Robots</td>
+          <td>Deck Adicional</td>
+          <td>Invocação especial</td>
+        </tr>
+      </table>
+      
+      <h2>Seu jogo</h2>
+      <form id="duelForm">
+        <label>Selecione o seu card:</label><br>
+        <select name="decks" id="cards">
+          <option value="Magic">Cauldron of the Old Man</option>
+          <option value="Trap card">Solemn Judgment</option>
+          <option value="Divine beast">Obelisk the Tormentor</option>
+          <option value="Rock/Effect">Cyber Jar</option>
+          <option value="Trap card">Solemn Strike</option>
+        </select><br><br>
+        
+        <label>Qual seu nível de experiência?</label><br>
+        <input type="radio" name="experience" value="beginner"> Iniciante<br>
+        <input type="radio" name="experience" value="intermediate"> Intermediário<br>
+        <input type="radio" name="experience" value="advanced"> Avançado<br><br>
+        
+        <label>Quais cartas você mais usa?</label><br>
+        <input type="checkbox" name="cardTypes" value="monster"> Monstros<br>
+        <input type="checkbox" name="cardTypes" value="spell"> Magias<br>
+        <input type="checkbox" name="cardTypes" value="trap"> Armadilhas<br><br>
+      </form>
+    </div>
+    <div id="footer">
+      <center>
+  <p>Card gaming</p>
+      </center>
+</body>
+</html>
